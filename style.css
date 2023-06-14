@@ -21,7 +21,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* gap: 1%; */
     padding: 1% 6%;
 }
 
@@ -29,7 +28,7 @@ header{
     padding-right: 50%;
 }
 
-.fa-xmark,.fa-bars{
+#open-slide,#close{
     display: none;
 }
 
@@ -261,11 +260,9 @@ position: relative;
 }
 
 .shape2{
-    /* width: 100%; */
     position: relative;
     top: 50%;
     left: 200%;
-    /* bottom: 40%; */
 }
 
 .fees {
@@ -864,9 +861,7 @@ footer{
 }
 
 @media screen and (max-width: 769px) {
-    /* body{
-        overflow: hidden;
-    } */
+
     .nav-menu{
         padding: 1rem;
     }
@@ -886,7 +881,17 @@ footer{
   .menu ul{
     display: flex;
     flex-direction: column;
+    padding: 2%;
+    gap: 1rem;
     margin-top: 10%;
+}
+
+.regi-un{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+    gap: 1rem;
 }
 
  #open-slide,#close{
@@ -932,7 +937,7 @@ footer{
     }
 
     .hero-rib-img{
-        margin-left: 25%;
+        margin-left: 10%;
         margin-top: 30%;
         /* margin-bottom: 5%; */
     }
@@ -959,14 +964,30 @@ footer{
     }
 
     .fees{
-        width: 100%;
+    /* width: 100%; */
         display: flex;
         flex-direction: column;
     }
+
+    .fees h3{
+        width: 100%;
+        /* padding-right: 8%; */
+    }
+
+    .nexts{
+        width: 85%;
+        font-size: 15px;
+        padding-bottom: 5%;
+    }
+
+    .paid{
+        width: 35%;
+        padding: 3% 6%;
+    }
+
     .me-di{
         position: relative;
         margin-top: 30%;
-        /* margin: 0 0 0 0; */
     }
 
     .cur-four{
@@ -984,31 +1005,9 @@ footer{
         position: relative;
     }
 
-    .fees {
-        width: 100%;
-    }
-
-    .fees h3{
-        width: 100%;
-        padding-right: 8%;
-    }
-
-    .nexts{
-        width: 92%;
-        font-size: 15px;
-        padding-bottom: 5%;
-    }
-
-    .paid{
-        width: 35%;
-        padding: 3% 6%;
-    }
-
+  
     .shape1{
         display: none;
-        /* position: absolute;
-        right: 6%;
-        top: 5%; */
     }
 
     .shape2{

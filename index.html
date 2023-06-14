@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<script src="crypto.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -128,23 +128,23 @@
     <section class="outside-sec">
         <h2>Trade securely and market the high <span class="sp-en">growth cryptocurrencies.</span></h2>
 
-        <div class="con-grid">
+        <div class="con-grid" data-aos="flip-right">
             <div class="chlid-gr">
-                <img src="img/bitcon.png" alt="">
+                <img src="img/bitcon.png" alt="" >
                 <h5>Bitcoin <span>BTC</span></h5>
                 <p>Digital currency in which a record of <span class="middle">transactions is maintained.</span></p>
                 <button type="submit">Start mining<i class="fa-solid fa-greater-than"></i></button>
             </div>
 
-            <div class="chlid-gr">
+            <div class="chlid-gr" data-aos="flip-left">
                 <img src="img/ethereum.png" alt="">
                 <h5>Ethereum <span>ETH</span></h5>
                 <p>Blockchain technology to create and run <span class="middle">decentralized digital applications.</span></p>
                  <i class="fas fa-solid fa-greater-than"></i>
             </div>
 
-            <div class="chlid-gr">
-                <img src="img/litecoin.png" alt="">
+            <div class="chlid-gr" data-aos="flip-right">
+                <img src="img/litecoin.png"  alt="">
                 <h5>Bitcoin <span>BTC</span></h5>
                 <p>Cryptocurrency that enables instant <span class="middle">payments to anyone in the world.</span></p>
                 <i class="fas fa-solid fa-greater-than"></i>
@@ -263,13 +263,21 @@
             <p>©2021 CRAPPO. All rights reserved</p>
 
             <div class="try-grid">
-                <i class="fas fa-brands fa-facebook-f"></i>
-                <i class="fas fa-brands fa-instagram"></i>
-                <i class="fas fa-brands fa-youtube"></i>
-                <i class="fas fa-brands fa-twitter"></i>
-                <i class="fas fa-brands fa-linkedin"></i>
+                <i class="fas fa-brands fa-facebook-f" data-aos="flip-right"></i>
+                <i class="fas fa-brands fa-instagram" data-aos="flip-right"></i>
+                <i class="fas fa-brands fa-youtube" data-aos="flip-right"></i>
+                <i class="fas fa-brands fa-twitter" data-aos="flip-right"></i>
+                <i class="fas fa-brands fa-linkedin" data-aos="flip-right"></i>
             </div>
         </div>
     </footer>
+
+    <script src="crypto.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+         AOS.init({
+            duration: 1200,
+      })
+    </script>
 </body>
 </html>
