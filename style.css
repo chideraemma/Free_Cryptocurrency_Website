@@ -135,8 +135,8 @@ form{
     border-radius: 40px;
     background: rgba(255, 255, 255, 0.1);
     width: 55%;
-
 }
+
 form input{
     background: transparent;
     border: 0;
@@ -1258,4 +1258,99 @@ footer{
         width: 60%;
         padding-right: 40%;
      }
+}
+
+@media screen and (max-width: 320px){
+
+    .invest-sel h1{
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    form input{
+        padding-left: 0.2rem;
+    }
+
+    .btn-second{
+        padding: 10px 13px;
+    }
+
+    .fees h3{
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .content1-f h2{
+        font-weight: 700;
+        font-size: 27px;
+        padding-left: 10%;
+    }
+
+    .content1-f p{
+        padding-left: 8%;
+    }
+
+    .content1-f span{
+        padding-left:16px;
+    }
+
+    .outside-sec{
+        margin-top: 25%;
+        padding: 7%;
+    }
+
+    .outside-sec h2{
+        width: 100%;
+        padding-left: 5%;
+        font-size: 25px;
+    }
+
+    .seant h3{
+        width: 100%;
+        top: 25%;
+        left: 5%;
+        font-weight: 600;
+        font-size: 25px;
+    }
+
+    .seant span{
+        padding-left: 1px;
+        padding-bottom: 5%;
+    }
+
+    .groups-flex{
+        margin-top: 15%;
+    }
+
+    .text-two h4{
+        font-weight: 700;
+        font-size: 27px;
+    }
+
+    .text-three h4{
+        font-size: 24px;
+        width: 102%;
+    }
+
+    .marster h4{
+        width: 100%;
+        bottom: 5.5rem;
+        font-size: 30px;
+        /* padding-left: 2%; */
+    }
+
+    .pic{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+}
+
+.foot-palce{
+    padding-top: 10%;
+}
+
+.foot-palce p{
+    width: 110%;
+}
+
 }
